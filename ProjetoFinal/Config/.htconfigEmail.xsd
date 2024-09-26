@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns="" id="ConfigEmail" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element msdata:IsDataSet="true" msdata:Locale="en-US" name="ConfigEmail">
+        <xs:complexType>
+            <xs:choice minOccurs="1" maxOccurs="1">
+                <xs:element name="Account">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element minOccurs="1" maxOccurs="1" name="Server" type="xs:string" />
+                            <xs:element minOccurs="1" maxOccurs="1" name="SSL" type="xs:boolean" />
+                            <xs:element minOccurs="1" maxOccurs="1" name="Port" type="xs:integer" />
+                            <xs:element minOccurs="1" maxOccurs="1" name="Timeout" type="xs:integer" />
+                            <xs:element minOccurs="1" maxOccurs="1" name="LoginName" type="xs:string" />
+                            <xs:element minOccurs="1" maxOccurs="1" name="Password" type="xs:string" />
+                            <xs:element minOccurs="1" maxOccurs="1" name="Email" type="xs:string" />
+                            <xs:element minOccurs="1" maxOccurs="1" name="DisplayName" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

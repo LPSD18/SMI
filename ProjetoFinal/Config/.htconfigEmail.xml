@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE Account SYSTEM ".htconfigEmail.dtd">
+
+<ConfigEmail xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+             xsi:noNamespaceSchemaLocation=".htconfigEmail.xsd">
+    <Account>
+        <Server>smtp.gmail.com</Server>
+        <SSL>TRUE</SSL>
+        <Port>465</Port>
+        <Timeout>30</Timeout>
+        <LoginName>smi.isel.1516@gmail.com</LoginName>
+        <Password>somoscampeoes</Password>
+        <Email>smi.isel.1516@gmail.com</Email>
+        <DisplayName>Sistemas Multimedia para a Internet - Using Lib</DisplayName>
+    </Account>
+</ConfigEmail>

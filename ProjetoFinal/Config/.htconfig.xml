@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE DataBase SYSTEM "./database.dtd">
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./htconfig.xsd">
+  <DataBase>
+	  <host>localhost</host>
+	  <port>3306</port>
+	  <!--<port>33306</port>-->
+	  <db>smi</db>
+	  <username>john_doe</username>
+	  <password>Password123!</password>
+  </DataBase>
+</Config>

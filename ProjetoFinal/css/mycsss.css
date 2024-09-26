@@ -1,0 +1,61 @@
+/* body { 
+  margin: 0;
+  padding: 00px;
+  background-color: #615E5E;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  background-color: #2F2C2C;
+  padding: 20px; 
+}
+
+.nav-image {
+  width: 100px;
+  height: 50px;
+}
+
+nav {
+  flex: 1;
+}
+
+.search-bar {
+  width: 500px;
+  height: 20px;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+} */
+
+body { 
+  margin: 0;
+  padding: 00px;
+  background-color: #615E5E;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between; /* Distribute items along the main axis with space between */
+  align-items: center; /* Vertically center items */
+  background-color: #2F2C2C;
+  padding: 20px; /* Adjust padding as needed */
+}
+
+.nav-image {
+  width: 100px;
+  height: 50px;
+}
+
+nav {
+  flex: 1;
+}
+
+.search-bar {
+  width: 500px;
+  height: 20px;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+}

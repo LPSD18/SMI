@@ -1,0 +1,27 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2F2C2C;
+    padding: 20px;
+    flex: 1;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 50px;
+  }
+  
+  .search-bar {
+    width: 500px;
+    height: 20px;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+  }
+
+  .pfp {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }

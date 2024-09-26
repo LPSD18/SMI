@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE DataBase SYSTEM "./files.dtd">
+
+<Config>
+	<Files>
+	  <dir>C:\Temp\upload\</dir>
+	  <size>65536</size>
+	</Files>
+</Config>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="uft-8"?>
+
+<!ELEMENT Config (Files)>
+
+<!ATTLIST Config xmlns:xsi CDATA #FIXED "http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation CDATA #IMPLIED
+>
+
+<!ELEMENT Files (dir, size)>
+
+<!ELEMENT dir (#PCDATA)>
+
+<!ELEMENT size (#PCDATA)>

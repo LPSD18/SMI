@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="uft-8"?>
+
+<!ELEMENT Config (DataBase)>
+
+<!ATTLIST Config xmlns:xsi CDATA #FIXED "http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation CDATA #IMPLIED
+>
+
+<!ELEMENT DataBase (host, port, db, username, password)>
+
+<!ELEMENT host (#PCDATA)>
+
+<!ELEMENT port (#PCDATA)>
+
+<!ELEMENT db (#PCDATA)>
+
+<!ELEMENT username (#PCDATA)>
+
+<!ELEMENT password (#PCDATA)>

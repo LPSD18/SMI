@@ -1,0 +1,119 @@
+body { 
+  margin: 0;
+  padding: 20;
+  background-color: #615E5E;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#containerDiv {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  flex: 1;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  flex: 1;
+}
+
+.pfp {
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-info .username {
+  background-color: #777;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.posts-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  flex: 1;
+}
+
+.posts {
+  width: 100%;
+  max-width: 600px;
+}
+
+.post {
+  background-color: #333;
+  border-radius: 25px;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.post-header, .post-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-header .post-title, .post-header .user-title {
+  font-weight: bold;
+}
+
+.post-content p {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.post-image, video {
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.followers-list {
+  margin-top: 20px;
+}
+
+.follower {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.follower .user-photo {
+  margin-right: 15px;
+}
+
+.follower .pfp {
+  width: 100px;  /* Increase the size as needed */
+  height: 100px;  /* Ensure the aspect ratio is maintained */
+  border-radius: 50%;
+}
+
+.follower .username {
+  font-size: 1.5em;  /* Increase the font size as needed */
+}
+
+.follower .username a {
+  text-decoration: none;
+  color: #000;  /* Set the desired color */
+}
+
+.follower .username a:hover {
+  text-decoration: underline;  /* Add underline on hover if needed */
+}
